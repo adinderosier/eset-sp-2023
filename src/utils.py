@@ -37,7 +37,7 @@ def check_for_update():
         repo="eset-sp-2023",
         branch="master",
         working_dir="src",
-        files = ["*.py"]
+        files = ["boot.py", "utils.py", "main.py"],
     )
     
     if OTA.update():
