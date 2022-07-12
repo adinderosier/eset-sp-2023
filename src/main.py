@@ -3,9 +3,10 @@
 ## Please refer to LICENSE before modifying any code
 ## System Main V1.0
 
+import utils
+
 def main():
-    for i in range(0, 10):
-        print(f"Hello World: {i}")
+    print("System Main V1.0")
 
 if __name__ == '__main__':
     main()
